@@ -1,0 +1,10 @@
+.main-operations {
+  text-align: right;
+}
+
+.main-operations .previousOperation {
+  color: #777;
+  padding: 0.2rem;
+  overflow-wrap: break-word;
+  min-height: 1.6rem;
+}

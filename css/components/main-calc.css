@@ -1,0 +1,14 @@
+.main-calc {
+  width: 40rem;
+  padding: 1rem;
+  background-color: #c4c4c4;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-calc .title {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #666;
+}

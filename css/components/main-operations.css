@@ -1,10 +1,19 @@
 .main-operations {
   text-align: right;
+  overflow-wrap: break-word;
+  min-height: 8rem;
+}
+
+.main-operations .previousOperation,
+.main-operations .currentOperation {
+  padding: 0.2rem;
 }
 
 .main-operations .previousOperation {
   color: #777;
-  padding: 0.2rem;
-  overflow-wrap: break-word;
-  min-height: 1.6rem;
+}
+
+.main-operations .currentOperation {
+  font-size: 3.6rem;
+  font-weight: 700;
 }

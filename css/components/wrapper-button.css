@@ -1,10 +1,10 @@
-.button-container {
+.wrapper-button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.3rem;
 }
 
-.button-container .button {
+.wrapper-button .button {
   border: 0.1rem solid transparent;
   border-radius: 0;
   height: 9rem;
@@ -13,20 +13,20 @@
   cursor: pointer;
 }
 
-.button-container .number {
+.wrapper-button .number {
   background-color: #f3f3f3;
 }
 
-.button-container .number:hover {
+.wrapper-button .number:hover {
   background-color: #bababa;
   border-color: #999;
 }
 
-.button-container #equal-btn {
+.wrapper-button #equal-btn {
   grid-column: span 2;
   background-color: #75a5cb;
 }
 
-.button-container #equal-btn:hover {
+.wrapper-button #equal-btn:hover {
   background-color: #3a91d8;
 }
